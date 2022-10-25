@@ -1,16 +1,87 @@
 
 /* Globales */
 *{
-    margin:0px; padding: 0px;
+    margin:0px; 
+    padding: 0px;
 }
 html{
     font-size: 62.5%;
     
 }
-body{
+
+body {
     font-family: 'Lato', sans-serif;
+  
 }
 
-h1{
+.background{
+    background-color: #000000;
+    width: 100%;
+}
+
+.titulo {
+    margin-bottom: 5rem;
+    font-size: 10rem;
     font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+h2{
+    color: #999999;
+    font-weight: 100;
+    font-size: 3.2rem;
+    
+}
+
+.contenedor {
+    margin: 5em;
+    width: 120rem;
+    text-align: center;
+    margin: auto;
+}
+
+.grid {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid h3{
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    width: 35rem;
+}
+
+.contenedor_hijo {
+    align-items: center;
+    margin: auto;
+}
+
+.contenedor_hijo img{
+    height: 20rem;
+    width: 35rem;
+}
+
+.contenedor_hijo p{
+    width: 35rem;
+    font-size: 1.6rem;
+    color: #999999;
+}
+
+.footer{
+    background-color:#000000 ;
+    line-height: 3;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footer p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
 }
