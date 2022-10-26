@@ -28,12 +28,11 @@ body {
     color: #fff;
 }
 
-h2{
-    color: #999999;
-    font-weight: 100;
-    font-size: 3.2rem;
-    
+h1{
+    font-family: 'Lato', sans-serif;
+
 }
+
 
 .contenedor {
     margin: 5em;
@@ -42,18 +41,30 @@ h2{
     margin: auto;
 }
 
-.grid {
-    margin-top: 5rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+/* Media query */
+
+
+
+
+h2{
+    color: #999999;
+    font-weight: 100;
+    font-size: 3.2rem;
 }
 
-.grid h3{
-    font-size: 2.6rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    width: 35rem;
-}
+
+   .grid {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid h3{
+        font-size: 2.6rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        width: 35rem;
+    }
 
 .contenedor_hijo {
     align-items: center;
@@ -85,3 +96,6 @@ h2{
     text-align: center;
     color: #fff;
 }
+
+
+
