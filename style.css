@@ -40,31 +40,24 @@ h1{
 }
 
 
-
-
-
-
-
-h2{
+.contenedor_hijo h2{
     color: #999;
-    font-weight: 100;
-    font-size: 3.2rem;
     font-family: 'Lato', sans-serif;
-
+    width: 30rem;
 }
 
 
 .grid {
     margin-top: 5rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .grid h3{
     font-size: 2.6rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    width: 35rem;
+    width: 30rem;
     font-family: 'Lato', sans-serif;
 
 }
@@ -76,11 +69,11 @@ h2{
 
 .contenedor_hijo img{
     height: 20rem;
-    width: 35rem;
+    width: 30rem;
 }
 
 .contenedor_hijo p{
-    width: 35rem;
+    width: 30rem;
     font-size: 1.6rem;
     color: #999;
     font-family: 'Lato', sans-serif;
