@@ -9,10 +9,7 @@ html{
     
 }
 
-body {
-    font-family: 'Lato', sans-serif;
-  
-}
+
 
 .background{
     background-color: #000000;
@@ -47,24 +44,28 @@ h1{
 
 
 h2{
-    color: #999999;
+    color: #999;
     font-weight: 100;
     font-size: 3.2rem;
+    font-family: 'Lato', sans-serif;
+
 }
 
 
-   .grid {
-        margin-top: 5rem;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+.grid {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
-    .grid h3{
-        font-size: 2.6rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-        width: 35rem;
-    }
+.grid h3{
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    width: 35rem;
+    font-family: 'Lato', sans-serif;
+
+}
 
 .contenedor_hijo {
     align-items: center;
@@ -79,7 +80,9 @@ h2{
 .contenedor_hijo p{
     width: 35rem;
     font-size: 1.6rem;
-    color: #999999;
+    color: #999;
+    font-family: 'Lato', sans-serif;
+
 }
 
 .footer{
