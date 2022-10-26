@@ -41,7 +41,7 @@ h1{
 
 
 .contenedor_hijo h2{
-    color: #999;
+    color: #808080;
     font-family: 'Lato', sans-serif;
     width: 30rem;
 }
@@ -75,13 +75,13 @@ h1{
 .contenedor_hijo p{
     width: 30rem;
     font-size: 1.6rem;
-    color: #999;
+    color: #808080;
     font-family: 'Lato', sans-serif;
 
 }
 
 .footer{
-    background-color:#000000 ;
+    background-color:#808080 ;
     line-height: 3;
     position: absolute;
     bottom: 0;
