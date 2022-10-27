@@ -54,7 +54,6 @@ h1{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
 }
 
 h2 {
@@ -85,7 +84,8 @@ h2 {
     color: #242424;
     font-family: 'Lato', sans-serif;
     align-items: center;
-    margin: auto;
+    margin: 1rem auto;
+
 }
 
 
