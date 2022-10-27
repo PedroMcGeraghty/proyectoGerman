@@ -54,10 +54,11 @@ h1{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    gap: 1rem;
 }
 
 h2 {
-    color:#403D3D;
+    color:#151515;
     font-family: 'Lato', sans-serif;
     width: 45rem;
     font-size: 2.2rem;
@@ -81,7 +82,7 @@ h2 {
 .contenedor_hijo p{
     width: 30rem;
     font-size: 1.6rem;
-    color: #403D3D;
+    color: #242424;
     font-family: 'Lato', sans-serif;
     align-items: center;
     margin: auto;
