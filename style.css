@@ -45,6 +45,8 @@ h1{
     margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+
 }
 
 .contenedor_hijo {
