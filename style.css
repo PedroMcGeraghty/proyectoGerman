@@ -57,9 +57,12 @@ h2{
 .contenedor_hijo p {
     text-align: center;        
     font-family: 'Lato', sans-serif;
+    font-weight: 700;
     font-size: 1.6rem;
     margin-top: 0.5rem;
     margin-bottom: 5rem;
+    color: #797979;
+    
 }
 
 /* Main */
