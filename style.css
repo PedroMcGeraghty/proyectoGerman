@@ -28,11 +28,12 @@ h1{
 }
 
 h2{
-    margin: 2.4rem auto;
+    margin: 3rem auto;
     text-align: center;
     font-family: 'Lato', sans-serif;
     width: auto;
     font-weight: 700;
+    color: #2C2C2C;
 }
 
 
@@ -106,7 +107,6 @@ h2{
         font-family: 'Lato', sans-serif;
         width: 45rem;
         font-size: 2.5rem;
-        
     }
     
      h3 {
