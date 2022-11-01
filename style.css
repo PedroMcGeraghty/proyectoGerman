@@ -65,7 +65,7 @@ h2{
     
 }
 
-/* Main */
+/* Main Desktop */
 
 @media  (min-width: 768px){
 
@@ -88,7 +88,6 @@ h2{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         width: 90%;
-    
     }
     
     .contenedor {
@@ -106,11 +105,12 @@ h2{
         justify-content: center;
     }
     
-    h2 {
+    .contenedor_hijo h2 {
         color: #797979;
         font-family: 'Lato', sans-serif;
         width: 45rem;
         font-size: 2.5rem;
+        
     }
     
      h3 {
@@ -154,8 +154,6 @@ h2{
 
     }
 }
-
-
 
 .footer{
     display: flex;
